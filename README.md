@@ -1,9 +1,9 @@
-# Project 2 - FTP Client
+# FTP Client
+
+## Overview
+FTP is a client-server oriented protocol for uploading, downloading, and managing files. The FTP server's job is to listen for incoming connections from clients and then respond to their requests. These requests include all common file and directory operations, such as listing the files in a directory, making and deleting directories, uploading files from the client machine to the server, and downloading files from the server to the client machines. FTP clients connect to FTP servers and issue commands to tell the server what to do. 
 
 ### High Level Approach
-- Initially, this project was a lot to take in. The project description just had so much in it to process.
-- Step one was to read through the entire directions of the project multiple times.
-- From here, because I have had previous experience using traditional ftp clients, I started in on the code.
 - I started by writing the main method for the program. (Obviously)
 - I wanted to ensure that the program would only the command and one or two parameters.
 - From there, I made sure I was able to properly parse out all of the individual parts or the provided ftp server urls.
@@ -61,9 +61,3 @@
 - From here I tested all of the different commands and filled files with specific data to make sur ethey were sending over the proper info, not just garbage.
 - As I did all of these tests, I went through the code I wrote and added try/catches for various invalid logins.
 - I also implemented a method that would check responses for any 4XX, 5XX, or 6XX responses and error out gracefully instead of breaking when it tried to push through.
-
-### Final Thoughts
-- I enjoyed this project very much. I found this one to be much more challenging than the first project, just because it had so many moving parts. 
-- I think we could have been breifed a little better on this assignment, because there were a lot of grey areas in the directions.
-- I realize some of the reason for being vague in the instructions was to make us read the documentation, which I did, and found it to be useful but hard to read.
-- I now feel like I know how ftp works very intimately and that these concepts will stick with me for a long time to come.
